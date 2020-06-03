@@ -1,6 +1,7 @@
 import React from 'react';
-import { View } from 'react-native';
-import { MyChart } from '../components/Chart';
+import { View, Text } from 'react-native';
+import { ChartHRLive } from '../components/ChartHRLive';
+import { ChartSPO2Live } from '../components/CharSPOLive';
 
 export function MeasurementScreen() {
   return (
@@ -12,7 +13,11 @@ export function MeasurementScreen() {
         backgroundColor: '#3D4556',
       }}
     >
-      <MyChart />
+      <Text style={{ color: 'white' }}>Heart Rate</Text>
+      <ChartHRLive />
+
+      <Text style={{ color: 'white', marginTop: 24 }}>Oxygen Saturation</Text>
+      <ChartSPO2Live />
     </View>
   );
 }
