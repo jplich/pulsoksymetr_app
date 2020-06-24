@@ -32,14 +32,14 @@ export function ChartHRLive() {
             },
           ],
         }}
-        width={Dimensions.get('window').width} // from react-native
+        width={Dimensions.get('window').width}
         height={220}
         yAxisSuffix=" bmp"
-        yAxisInterval={1} // optional, defaults to 1
+        yAxisInterval={1}
         chartConfig={{
           backgroundGradientFrom: '#3D4556',
           backgroundGradientTo: '#3D4556',
-          decimalPlaces: 0, // optional, defaults to 2dp
+          decimalPlaces: 0,
           color: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
           labelColor: (opacity = 1) => `rgba(255, 255, 255, ${opacity})`,
           style: {

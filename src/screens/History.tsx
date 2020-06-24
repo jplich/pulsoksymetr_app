@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Text, View } from 'react-native';
 import { ChartSPO2 } from '../components/ChartSPO2';
 import { ChartHR } from '../components/ChartHR';
