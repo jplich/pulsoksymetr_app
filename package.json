@@ -19,7 +19,7 @@
     "@types/lodash": "^4.14.155",
     "lodash": "^4.17.15",
     "react": "16.11.0",
-    "react-native": "0.62.2",
+    "react-native": "0.62.3",
     "react-native-chart-kit": "^5.6.0",
     "react-native-date-picker": "^2.7.10",
     "react-native-gesture-handler": "^1.6.1",
